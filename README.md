@@ -1,4 +1,4 @@
-#Simple Dictionary
+> **Simple Dictionary**
 
 This application uses the Free Dictionary API to find the meaning of words, synonyms, antonyms and the likes
 
