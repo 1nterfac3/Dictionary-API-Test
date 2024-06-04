@@ -2,7 +2,7 @@ body {
     font-family: "Quicksand", sans-serif;
     background-color: rgb(16,22,47);
     color: white;
-    padding: 8%;
+    padding: 6%;
 }
 
 h1 {
@@ -43,14 +43,14 @@ button {
 }
 
 .output {
-    display: inline-block;
+    display: none;
     overflow: hidden;
-    text-align: center;
+    /* text-align: center; */
     border: 1px solid white;
-    color: rgb(152, 72, 255);
+    color: black;
     background-color: white;
     padding: 25px;
-    box-shadow: 2.5px 5px;
+    box-shadow: 2.5px 5px grey;
     border-radius: 5px;
 }
 
@@ -64,4 +64,9 @@ button {
     text-align: center;
     transform: scale(1.2);
     font-weight: bolder;
+}
+
+#app-logo {
+    height: 125px;
+    width: 125px;
 }
