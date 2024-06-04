@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionary API Test</title>
+</head>
+<body>
+    <div class="app-container">
+        <h1>Simple Dictionary</h1>
+        <input type="text" id="input" placeholder="Enter a word">
+        <br/><br/><br/>
+        <button id="searchBtn" onclick="fetchData()">Search Word</button>
+        <br/><br/><br/>
+        <div class="output">
+            <p class="output-content">Word</p>
+            <p id="word"></p>
+            <p class="output-content">Definition</p>
+            <p id="definition"></p>
+            <p class="output-content">Synonyms</p>
+            <p id="synonym"></p>
+            <p class="output-content">Antonyms</p>
+            <p id="antonym"></p>
+        </div>
+    </div>
+    <!--For future reference, always keep the script tag at the end of the body-->
+    <script src="main.js"></script> 
+</body>
+</html>

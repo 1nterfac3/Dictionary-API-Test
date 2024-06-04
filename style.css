@@ -1,0 +1,67 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(16,22,47);
+    color: white;
+    padding: 8%;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+input[type="text"] {
+    background-color: rgb(16,22,47);
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 70%;
+    font-size: 30px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(16,22,47);
+    color: white;
+    border: none;
+    /* border-bottom: 1px solid white; */
+    border-radius: 2.5px;
+    outline: 1px solid white;
+    font-family: "Quicksand", sans-serif;
+    transform: scale(1.7);
+}
+
+.app-container {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+.output {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid white;
+    color: rgb(152, 72, 255);
+    background-color: white;
+    padding: 25px;
+    box-shadow: 2.5px 5px;
+    border-radius: 5px;
+}
+
+#title {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* TODO: improve the CSS later */
+.output-content {
+    text-align: center;
+    transform: scale(1.2);
+    font-weight: bolder;
+}
