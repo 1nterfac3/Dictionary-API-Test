@@ -45,10 +45,8 @@ button {
 .output {
     display: none;
     overflow: hidden;
-    /* text-align: center; */
     border: 1px solid white;
-    color: black;
-    background-color: white;
+    color: white;
     padding: 25px;
     box-shadow: 2.5px 5px grey;
     border-radius: 5px;
